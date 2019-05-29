@@ -8,7 +8,7 @@
 body{
 	font-family:arial;
 	font-size: 13px;
-	line-height: 1.5em;
+	line-height:1.5em;
 	color:#3FC;
 	background-color:#03F
 }
@@ -70,19 +70,19 @@ input#volume{
 button#play{
 	width:70px;
 	height:70px;
-	backgroup:url(../images/play.png) no-repeat;float:left;
+	background:url(../images/play.png)no-repeat;float:left;
 }
 
 button#pause{
 	width:70px;
 	height:70px;
-	backgroup:url(../images/pause.png) no-repeat;float:left;
+	background:url(../images/pause.png)no-repeat;float:left;
 }
 
 button#stop{
 	width:70px;
 	height:70px;
-	backgroup:url(../images/stop.png) no-repeat;float:left;
+	background:url(../images/stop.png)no-repeat;float:left;
 }
 
 #playlist{
@@ -101,7 +101,7 @@ button#stop{
 }
 
 #playlist li.active{
-	font-weight:bold;
+	font-weight: bold;
 	padding:3px;
 	background:#63F;
 }

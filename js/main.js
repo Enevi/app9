@@ -31,7 +31,7 @@ function initAudio(element){
 
 
 //Play Button
-$('#play').click(function(){
+$('#play').click(function (){
 	audio.play ();
 	$('#play').hide();
 	$('#pause').show();
@@ -40,14 +40,14 @@ $('#play').click(function(){
 });
 
 //Pause Button
-$('#pause').click(function(){
+$('#pause').click(function (){
 	audio.pause();
 	$('#pause').hide();
 	$('#play').show();
 });
 
 //Stop Button
-$('#stop').click(function(){
+$('#stop').click(function (){
 	audio.pause ();
 	audio.currentTime = 0;
 	$('#pause').hide();
